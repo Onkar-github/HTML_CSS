@@ -1,0 +1,77 @@
+
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.head , .head2{
+    color: white;
+    text-align: center;
+}
+.head{
+    text-shadow: 3px 0px 0em black , 0px -1px .5em rgb(245, 251, 253) ;
+    border-bottom: .9px solid rgb(99, 99, 99) ;
+}
+.head2{
+    text-shadow: 7px 02px 0.3em black ;
+}
+
+li{
+    margin:0px;
+    list-style-type : none ;
+    padding: 20px;
+} 
+    
+
+
+
+input[type="text"],
+input[type="Email"],
+textarea ,select
+{   overflow: hidden;
+    text-align: center;
+    width: 100%;
+    border: rgb(210, 213, 218) solid ;
+    height:2.5rem ;
+    border-radius: 2em;
+    padding: 10px;
+    font-size: .85rem;
+}
+
+select{
+    font-size: 12px;
+}
+
+
+input[type=submit]{
+    padding: .8rem;
+    margin-left: 30%;
+    font-weight:600;
+    font-style:oblique;
+    border-radius: 46%;
+    width: 150px;
+      font-size: 1rem;
+      background:border-box radial-gradient(white, grey);
+      text-shadow: 0px 0px 1.5em teal , 0px 0px 5px rgba(26, 236, 61, 0.808) ;
+     
+}
+input[type=submit]:hover
+{
+    transform:scale(1.05);
+
+
+}
+
+
+.div{
+background-color: rgb(68, 147, 173);
+padding : 30px;
+margin: 25%;
+
+
+}
+.main{
+    padding: 20px;
+
+}
+

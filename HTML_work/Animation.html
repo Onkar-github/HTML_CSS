@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            animation: bouncing .5s  ease 0s infinite alternate;
+            background-color:blue ; 
+            display: inline-block;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            text-transform: uppercase;
+            position: relative;
+            vertical-align: top;
+            margin-top: 100px;
+            letter-spacing: .2em;
+            border-radius: 50% ;
+        }
+        @keyframes bouncing{
+            0% {
+                bottom: 0 ;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.705);
+            }
+            50%{
+                color: cornflowerblue;
+            }
+            100%{
+                bottom: 50px;
+                box-shadow:  0 50px 50px rgba(0, 0, 0, 0.418);
+            }
+        }
+    </style>
+    </head>
+
+    <body>
+        <a>Loading</a>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <style>
+        .main{
+            display: flex;
+            height: 800px;
+            justify-content: space-around;
+        }
+        .box>ul{
+            list-style-type: none;
+        }
+        .box{
+            margin: 30px;
+            height: 600px;
+            border: 2px solid black;
+            box-shadow: 2px  0px 1em rgb(80, 18, 18);
+            border-radius: 3em;
+        }
+       .butto{
+            padding: 20px;
+            font-size: 20px;
+        }
+        img{
+            border-top-left-radius: 3em ;
+            border-top-right-radius: 3em ;
+        }
+    </style>
+</head>
+<body>
+    <header style="text-align: center; background-color: cadetblue; padding: 20px;"> <h1> Apan Tour Pack </h1>    </header>
+    <div class="main">
+        <div class="box">
+                <div><img src="image/Jellyfish.jpg" width="100%"  alt="place image" >       </div>
+            <ul>
+                <li> <h1> Jellyfish </h1></li>
+                <li> <h3> You wanna go like this place in your tour pack.    </h3>  </li>
+                <li> <button class="butto">READ more</button>   </li>
+            </ul>
+        </div>
+        <div class="box" style="align-self:flex-end ;">
+            <img src="image/Koala.jpg" width="100%"  alt="place image">
+                
+            <ul>
+                <li> <h1> Koala</h1>  </li>
+                <li> <h3>  You wanna go like this place in your tour pack.     </h3>  </li>
+                <li> <button class="butto">READ more</button> </li>   </ul>
+        </div>
+        <div class="box">
+            <img src="image/Penguins.jpg" width="100%" alt="place image"> 
+            
+            <ul>
+                <li> <h1> Penguins  </h1>  </li>
+                <li> <h3> You wanna go like this place in your tour pack.      </h3>  </li>
+                <li> <button class="butto">READ more</button>      </li>
+            </ul>
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,166 @@
+body{
+margin: 0px;
+padding: 0px;
+background-color:#333;
+}
+
+header{
+    background-color: orange ;
+    padding: 13px ;
+    text-align: center;
+}
+header h1{
+    font: 900 45px normal; 
+    color:rgb(18, 41, 25);
+    text-shadow: 1px 0px 1em black , 0px 0px .5em black , 3px 0px 1em white  ;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width:100%;
+    padding: 15px;
+
+}
+nav .sticky{
+
+    position: sticky;
+    top: 0;
+
+}
+nav a{
+
+     color: wheat;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     text-decoration: none;
+     padding: 10px;
+     float: left;
+ 
+ }
+
+ .A{
+    width: 100%;
+    display: flex;
+    height: 300px;
+}
+.I{
+    width: 60% ;
+
+}
+.img2  {
+    width: 39% ;
+    
+}
+.img2 img{
+    clip-path: polygon(25% 5%, 90% 5%, 90% 95%, 25% 95%, 0% 50%);
+    width: 100%;
+    height: 100%;
+}
+.des{
+    display: flex;
+    background-color: rgba(31, 29, 29, 0.863) ;
+}
+.des1{
+    color:yellow;
+    width: 50%;
+    padding: 20px;
+    background-color:  rgba(31, 29, 29, 0.863);
+}
+.des2{
+    color: yellow;
+    width: 50%;
+    padding: 20px;
+    background-color: rgba(31, 29, 29, 0.863);
+}
+
+.B{
+    padding: 20px;
+    width: 100%;   
+}
+ .img {
+        width: 58% ; 
+        padding: 10px;
+        height: 30%;
+        float: left;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.para h1 , .para2 h1{
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 0px 1em gold , 0px 0px .5em gold ;
+   background-color: rgba(31, 29, 29, 0.897) ; 
+    padding: 20px;
+    margin: 0px;
+}
+
+.para2{
+    width: 38%;
+    padding: 10px;
+    float: right;
+}
+
+.para2 h1{
+    padding: 10px;
+    font: italic bold 30px cursive;
+}
+
+ul li {
+    list-style-type:decimal ;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1.3em ;
+}
+
+
+.img1 {
+    width: 40% ;
+    height: 30%;
+    padding: 6em;
+    
+
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:1001px) and (min-width:600px){
+    .img {
+        width: 50% ; 
+        margin: 10px;
+        height: 30%;
+        float: left;
+}    
+.para2{
+    width: 38%;
+    margin: 10px;
+    float: right;
+}
+}
+ @media (max-width:700px)
+ {
+    .img {
+        position: absolute;
+        top: 700px;
+        width: 40% ; 
+        margin: 10px;
+        height: 30%;
+        float: left;
+}
+.para2{
+    width: 50%;
+    margin: 10px;
+    float: right;
+}
+.img1 {
+    position: absolute;
+    top: 1000px;
+
+    width: 35% ;
+    height: 25%; 
+
+}         
+ }
